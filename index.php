@@ -4,8 +4,8 @@ function loginForm() {
 	echo '
     <div id="loginform">
     <form action="index.php" method="post">
-        <p color:white>Wpisz swoje imie:</p>
-        <label class=\'white\'  for="name">Imie:</label>
+        <p color:white>What is your name?:</p>
+        <label class=\'white\'  for="name">Name:</label>
         <input type="text" name="name" id="name" />
         <input type="submit" name="enter" id="enter" value="Enter" />
     </form>
